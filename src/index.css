@@ -6,6 +6,7 @@
   --text-secondary: #94a3b8;
   --accent-color: #00d2ff;
   --accent-secondary: #3a7bd5;
+  --warning-color: #ff6b35;
   --accent-gradient: linear-gradient(135deg, #00d2ff 0%, #3a7bd5 100%);
   --glass-bg: rgba(255, 255, 255, 0.03);
   --glass-border: rgba(255, 255, 255, 0.1);

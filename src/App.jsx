@@ -109,6 +109,24 @@ function App() {
               <a href="#contact" className="card-btn primary">S'inscrire</a>
             </div>
 
+            {/* Prévention Fraude & Sécurité */}
+            <div className="card reveal" style={{ borderColor: 'var(--warning-color)', background: 'rgba(255, 107, 53, 0.05)' }}>
+              <div className="badge" style={{ background: 'var(--warning-color)', color: 'white' }}>Sécurité</div>
+              <h3>Prévention Fraude & Sécurité en Ligne</h3>
+              <div className="price">
+                GRATUIT<span> / session</span>
+                <div className="price-note">🏦 Si votre institution bancaire participe au programme</div>
+                <div className="price-note">Contactez votre banque pour vous inscrire</div>
+              </div>
+              <ul>
+                <li>Reconnaissance arnaques & phishing</li>
+                <li>Sécurité bancaire en ligne</li>
+                <li>Protection données personnelles</li>
+                <li>Cas réels & exercices pratiques</li>
+              </ul>
+              <a href="#contact" className="card-btn primary">Nous contacter</a>
+            </div>
+
             {/* Accélérateur Coaching */}
             <div className="card reveal">
               <div className="badge">Stratégie</div>
@@ -207,6 +225,13 @@ function App() {
                 <p>En collaboration avec le CDSTP.</p>
               </div>
             </div>
+            <div className="event-card">
+              <div className="event-date">JUN <span>10</span></div>
+              <div className="event-info">
+                <h4>Atelier Sécurité : Fraude & Arnaques en Ligne</h4>
+                <p>Protégez-vous contre les fraudes. Gratuit avec institutions bancaires participantes.</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -264,6 +289,10 @@ function App() {
             <div className="faq-item">
               <h4>Puis-je louer la salle pour un événement privé ?</h4>
               <p>Oui, notre salle de conseil est disponible à l'heure pour vos formations ou vos rencontres clients.</p>
+            </div>
+            <div className="faq-item">
+              <h4>Comment fonctionne le programme bancaire pour la formation sécurité ?</h4>
+              <p>Nous offrons des ateliers gratuits de prévention de fraude aux clients des institutions bancaires qui participent au programme. Contactez votre banque pour demander qu'elle s'inscrive, ou contactez-nous pour plus de détails.</p>
             </div>
           </div>
         </div>
