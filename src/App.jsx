@@ -244,8 +244,6 @@ function App() {
             <div className="partners-logos" style={{ opacity: 1 }}>
               <div className="partner-logo">CDSTP <span>St-Pacôme</span></div>
               <div className="partner-logo">Municipalité <span>St-Pacôme</span></div>
-              <div className="partner-logo">Le <span>Pacômien</span></div>
-              <div className="partner-logo">Gaston <span>Dubé</span></div>
             </div>
           </div>
         </div>
