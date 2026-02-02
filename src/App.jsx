@@ -24,8 +24,8 @@ function App() {
       <nav className="navbar">
         <div className="container nav-wrap">
           <div className="logo">
-            <img src="/images/logo.png" alt="L'Épicentre Logo" style={{ height: '40px', marginRight: '10px', borderRadius: '8px' }} />
-            L'Épicentre <span>St-Pacôme</span>
+            <img src="/images/logo.png" alt="Centre d'Affaires Logo" style={{ height: '40px', marginRight: '10px', borderRadius: '8px' }} />
+            Centre d'Affaires <span>St-Pacôme</span>
           </div>
           <ul className="nav-links">
             <li><a href="#accueil">Accueil</a></li>
@@ -44,7 +44,7 @@ function App() {
             <div className="badge animate-fade-in">Ouverture 2026</div>
             <h1 className="animate-fade-in">Apprenez, créez et propulsez votre entreprise.</h1>
             <p className="animate-fade-in" style={{ animationDelay: '0.2s' }}>
-              Plus qu'un simple bureau, L'Épicentre est un centre de formation continue au cœur du Kamouraska. Maîtrisez l'IA, le marketing et la stratégie dans un environnement stimulant.
+              Plus qu'un simple bureau, le Centre d'Affaires est un centre de formation continue au cœur du Kamouraska. Maîtrisez l'IA, le marketing et la stratégie dans un environnement stimulant.
             </p>
             <div className="hero-btns animate-fade-in" style={{ animationDelay: '0.4s' }}>
               <a href="#services" className="cta-button">Voir les formations</a>
@@ -62,7 +62,7 @@ function App() {
         <div className="container">
           <div className="grid">
             <div className="reveal">
-              <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem' }}>Pourquoi L'Épicentre?</h2>
+              <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem' }}>Pourquoi le Centre d'Affaires?</h2>
               <p style={{ color: 'var(--text-secondary)', fontSize: '1.1rem' }}>
                 Les entrepreneurs locaux manquent d'espaces de rencontre professionnels, tandis que le télétravail rime souvent avec isolement. Nous comblons ce fossé avec une infrastructure de pointe au cœur du village.
               </p>
@@ -235,7 +235,7 @@ function App() {
               <div className="badge">Rayonnement</div>
               <h2>Revitaliser Saint-Pacôme par le savoir.</h2>
               <p style={{ color: 'var(--text-secondary)' }}>
-                En lien avec la mission du CDSTP, L'Épicentre contribue à la force économique de notre village. Nous soutenons la mode durable via la formation numérique pour la Friperie et aidons les commerçants locaux à briller sur le web.
+                En lien avec la mission du CDSTP, le Centre d'Affaires contribue à la force économique de notre village. Nous soutenons la mode durable via la formation numérique pour la Friperie et aidons les commerçants locaux à briller sur le web.
               </p>
             </div>
           </div>
@@ -251,7 +251,7 @@ function App() {
           <div className="faq-grid">
             <div className="faq-item">
               <h4>Dois-je être un expert en tech ?</h4>
-              <p>Absolument pas. L'Épicentre est fait pour vous accompagner, peu importe votre niveau actuel.</p>
+              <p>Absolument pas. Le Centre d'Affaires est fait pour vous accompagner, peu importe votre niveau actuel.</p>
             </div>
             <div className="faq-item">
               <h4>Comment fonctionne l'aide aux subventions ?</h4>
@@ -273,7 +273,7 @@ function App() {
               <div className="badge">Vision Locale</div>
               <h2>Le trait d'union du Kamouraska.</h2>
               <p style={{ color: 'var(--text-secondary)', marginBottom: '1.5rem' }}>
-                Situé à Saint-Pacôme, village-relais gastronomique et culturel, L'Épicentre est le point de rencontre idéal entre La Pocatière et Saint-Pascal.
+                Situé à Saint-Pacôme, village-relais gastronomique et culturel, le Centre d'Affaires est le point de rencontre idéal entre La Pocatière et Saint-Pascal.
               </p>
               <ul className="vision-list">
                 <li><span>Vendredi Portes Ouvertes:</span> Gratuit une fois par mois pour tous.</li>
@@ -282,7 +282,7 @@ function App() {
               </ul>
             </div>
             <div className="reveal vision-image">
-              <img src="/images/hub_interior.png" alt="Espace L'Épicentre" style={{ width: '100%', borderRadius: '30px', boxShadow: 'var(--shadow)' }} />
+              <img src="/images/hub_interior.png" alt="Espace Centre d'Affaires" style={{ width: '100%', borderRadius: '30px', boxShadow: 'var(--shadow)' }} />
               <div className="image-overlay-badge">Innovation Rurale</div>
             </div>
           </div>
@@ -294,7 +294,7 @@ function App() {
         <div className="container">
           <div className="footer-wrap">
             <div className="footer-info">
-              <div className="logo">L'Épicentre <span>St-Pacôme</span></div>
+              <div className="logo">Centre d'Affaires <span>St-Pacôme</span></div>
               <p>Bâtir l'avenir de l'entrepreneuriat rural.</p>
               <div className="socials">
                 {/* Icons would go here */}
@@ -311,7 +311,7 @@ function App() {
             </div>
           </div>
           <div className="footer-bottom">
-            <p>&copy; 2026 L'Épicentre Saint-Pacôme. Propulsé par l'innovation locale.</p>
+            <p>&copy; 2026 Centre d'Affaires Saint-Pacôme. Propulsé par l'innovation locale.</p>
           </div>
         </div>
       </footer>
