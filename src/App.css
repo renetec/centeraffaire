@@ -458,3 +458,17 @@
     padding: 2rem;
   }
 }
+
+/* Pricing Notes for Subsidies */
+.price-note {
+  font-size: 0.85rem;
+  color: var(--accent-color);
+  font-weight: 500;
+  margin-top: 0.5rem;
+  line-height: 1.3;
+  display: block;
+}
+
+.price-note:first-of-type {
+  margin-top: 1rem;
+}

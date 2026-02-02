@@ -95,7 +95,11 @@ function App() {
             <div className="card reveal" style={{ borderColor: 'var(--accent-color)', background: 'rgba(0, 210, 255, 0.05)' }}>
               <div className="badge" style={{ background: 'var(--accent-color)', color: 'white' }}>Nouveau</div>
               <h3>Maîtriser l'IA</h3>
-              <div className="price">99$<span> / session</span></div>
+              <div className="price">
+                99$<span> / session</span>
+                <div className="price-note">💡 Gratuit avec subvention provinciale/fédérale</div>
+                <div className="price-note">49$ pour aînés 65+</div>
+              </div>
               <ul>
                 <li>Atelier pratique 3h</li>
                 <li>Claude, ChatGPT & Automatisation</li>
